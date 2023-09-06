@@ -2,7 +2,7 @@
 const nextConfig = {
     images: {
         domains: ["cdn.imagin.studio"],
-        formats: ['image/avif', 'image/webp'],
+        formats: [ 'image/webp'],
     },
     webpack: (config) => {
         let modularizeImports = null;
